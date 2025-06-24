@@ -10,7 +10,7 @@ import Dance from './Dance/Dance.jsx';
 import Music from './Music/Music.jsx';
 import Art from './Art/Art.jsx';
 import Objective from './Objective/Objective.jsx';
-import Goverment from './Government/goverment.jsx';
+import Goverment from './Government/Goverment.jsx';
 import Assement from './Assement/Assement.jsx';
 import Training from './Traning/Training.jsx';
 import Examiner from './Examiner/Examiner.jsx';
