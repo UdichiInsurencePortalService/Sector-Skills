@@ -38,13 +38,15 @@ const Footer = () => {
             <Col md={4} className="mb-5">
               <h3 className="text-white mb-4">Get In Touch</h3>
               <p>
-                <i className="fa fa-map-marker-alt me-2"></i>123 Street, New York, USA
+                <i className="fa fa-map-marker-alt me-2"></i>LGF-54, Captain Vijyant Thapar Marg, D Block, Pocket D, Sector 18, Noida, Uttar Pradesh 201301
               </p>
               <p>
-                <i className="fa fa-phone-alt me-2"></i>+012 345 67890
+                <i className="fa fa-phone-alt me-2"></i>+91 7838029393
               </p>
               <p>
-                <i className="fa fa-envelope me-2"></i>info@example.com
+                <i className="fa fa-envelope me-2"></i>info@sscacc.in
+
+
               </p>
               <div className="d-flex mt-4">
                 <a className="text-white me-4" href="#"><i className="fab fa-2x fa-twitter"></i></a>
@@ -57,7 +59,7 @@ const Footer = () => {
             <Col md={4} className="mb-5">
               <h3 className="text-white mb-4">Our Courses</h3>
               <div className="d-flex flex-column">
-                {['Web Design', 'Apps Design', 'Marketing', 'Research', 'SEO'].map((course, idx) => (
+                {['Music', 'Art', 'Dance',].map((course, idx) => (
                   <a key={idx} href="#" className="text-white-50 mb-2">
                     <i className="fa fa-angle-right me-2"></i>{course}
                   </a>
@@ -68,7 +70,7 @@ const Footer = () => {
             <Col md={4} className="mb-5">
               <h3 className="text-white mb-4">Quick Links</h3>
               <div className="d-flex flex-column">
-                {['Privacy Policy', 'Terms & Condition', 'Regular FAQs', 'Help & Support', 'Contact'].map((link, idx) => (
+                {['Privacy Policy', 'About Us', 'Contact Us', 'Our Aim'].map((link, idx) => (
                   <a key={idx} href="#" className="text-white-50 mb-2">
                     <i className="fa fa-angle-right me-2"></i>{link}
                   </a>

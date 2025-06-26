@@ -5,7 +5,7 @@ import AOS from 'aos';
 import { useEffect } from 'react';
 import aim from '../assets/aim.jpg'; // update path as needed
 
-const WhyChooseUs = () => {
+const Vision = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
@@ -18,9 +18,7 @@ const WhyChooseUs = () => {
           {/* Left Content */}
           <Col lg={7} className="mb-5 mb-lg-0" data-aos="fade-right">
             <div className="mb-4">
-              <h6 className="text-uppercase text-secondary border-bottom border-secondary d-inline-block pb-2">
-              About Us
-              </h6>
+              
               <h1 className="display-5 fw-bold">AIM</h1>
             </div>
             <p className="mb-4">
@@ -111,4 +109,4 @@ const WhyChooseUs = () => {
   );
 };
 
-export default WhyChooseUs;
+export default Vision;

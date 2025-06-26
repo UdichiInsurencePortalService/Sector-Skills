@@ -424,7 +424,7 @@ const error = () => {
                 <Space>
                 <NavDropdown.Item onClick={error} href="#history">Who's Who</NavDropdown.Item>
                 </Space>
-                <NavDropdown.Item href="/about">Vision And Mission</NavDropdown.Item>
+                <NavDropdown.Item href="/vision">Vision And Mission</NavDropdown.Item>
                 <NavDropdown.Item href="/objective">Objectives & Functions</NavDropdown.Item>
               </NavDropdown>
 

@@ -32,10 +32,11 @@ const Home = () => {
   const aboutImage = "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80";
 
   const announcements = [
-    "The list of Candidates eligible for final round of Physical Interview for the post of Consultant Gr-I in NCVET",
-    "Office Order regarding the Expansion of Territorial Jurisdiction and Sectors",
-    "Expansion of Territorial Jurisdiction and Sectors – Application Form",
-    "Expansion of Territorial Jurisdiction and Sectors – Annexures"
+    "The creator economy continues to expand, with more individuals using online platforms to share their work and build communities. ",
+    "There's a growing emphasis on brands and companies aligning with social causes and taking stances on important issues. ",
+    "Nostalgia is a powerful force driving entertainment, as people seek out familiar and comforting content. ",
+    "The lines between the digital and physical worlds are blurring, with digital experiences becoming increasingly integrated into everyday life. ",
+    "Online communities are thriving, providing spaces for shared interests, support, and connection. "
   ];
 
   const services = [
@@ -44,15 +45,11 @@ const Home = () => {
       title: "Qualification Approval",
       description: "Alignment of Qualifications to National Skills Qualification Framework (NSQF) based upon the industry requirements and standards."
     },
-    {
-      icon: "🏅",
-      title: "Accessor & Tranning",
-      description: "NCVET grants the recognition to Quality Awarding Bodies & regulates their functioning through set guidelines and protocols."
-    },
+   
     {
       icon: "✏️",
       title: "Assessment Agencies",
-      description: "NCVET grants the recognition to Quality Assessing Agencies & regulates the functioning through comprehensive evaluation processes."
+      description: "Assessment agencies in the field of art and culture play a crucial role in evaluating the quality, impact, and effectiveness of various initiatives, programs, and organizations"
     }
   ];
 
@@ -135,7 +132,6 @@ const Home = () => {
                       </Button>
                     </div>
                   </div>
-                  <small className="opacity-75 mt-2 d-block">Training (NCVET)</small>
                 </div>
 
                 <Card.Body className="p-4">
@@ -247,7 +243,7 @@ const Home = () => {
        
                 <Row className="g-4">
                   {services.map((service, index) => (
-                    <Col md={6} lg={4} key={index}>
+                    <Col md={6} lg={6} key={index}>
                       <Card 
                         className="h-100 border-0 shadow-sm hover-card"
                         style={{ 

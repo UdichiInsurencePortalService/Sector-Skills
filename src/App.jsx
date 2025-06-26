@@ -22,6 +22,7 @@ import Internship from './Internship/Intenship.jsx';
 import Event from './PastEvent/Event.jsx';
 import Gallery from './Gallery/Gallery.jsx';
 import Policies from './PoliciesGuidlines/Policies.jsx';
+import Vision from './Vision/Vision.jsx';
 
 const App = () => {
   return (
@@ -50,6 +51,8 @@ const App = () => {
               <Route path ='/event' element={<Event/>}/>
         <Route path ='/galley' element={<Gallery/>}/>
                 <Route path ='/polices' element={<Policies/>}/>
+                                <Route path ='/vision' element={<Vision/>}/>
+
 
 
 
